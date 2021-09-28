@@ -38,7 +38,7 @@ printf("Digite a opção desejada:");
 scanf("%d",&op);
 
 
-//OPÇÃO 1
+//OPÇÃO 1 - INSERIR CONTATOS
 struct contato;
 if(op== 1){
  printf("Insira o nome do contato:");
@@ -67,7 +67,7 @@ if(op== 1){
 }
 }
 
-//OPÇÃO 2
+//OPÇÃO 2 - REMOVER CONTATOS
 if(op == 2){
 printf("Digite o nome do contato que quer remover:");
 setbuf(stdin,NULL);
@@ -88,7 +88,7 @@ for(i=0;i<100;i++){
 }
 
 }
-//OPÇÃO 3
+//OPÇÃO 3 - EDITAR UM CONTATO
 if(op == 3){
 	printf("Digite o nome do contato que quer editar:");
 	setbuf(stdin,NULL);
@@ -114,7 +114,7 @@ if(op == 3){
 	}
 }
 }
-//OPÇÃO 4
+//OPÇÃO 4 - PESQUISAR UM CONTATO PELO NOME
 if(op == 4){
 	printf("Digite o nome do contato que deseja pesquisar:");
 	setbuf(stdin,NULL);
@@ -128,7 +128,7 @@ if(op == 4){
 		}
 	}
 }
-//OPÇÃO 5
+//OPÇÃO 5 - PESQUISAR UM CONTATO PELA LETRA DO NOME
 if(op == 5){
 	printf("SUA LISTA DE CONTATOS COMPLETA!\n");
 	for(i=0;i<10;i++){
@@ -140,9 +140,3 @@ if(op == 5){
 	}
 }
 }
-
-
-
-
-
-
